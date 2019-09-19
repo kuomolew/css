@@ -1,11 +1,18 @@
+
 #product-overview {
-    /* background: url(freedom.jpg); */
-    background-image: url("freedom.jpg");
+    display: inline-block;
+    background: url(images/freedom.jpg) left top/cover no-repeat border-box;
+    /* background-image: url("freedom.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: left top; */
+    /* background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box; */
     width: 100%;
-    height: 529px;
+    height: 528px;
     padding: 10px;
+    margin-top: 43px;
+    /* border: 5px dashed red; */
     position: relative;
 }
 
